@@ -1,5 +1,5 @@
 package com.example.a13mariano.prueba1.ListaSimple;
-
+//falta el java DOC
 public class ListaSimple {
     private NodoSimple primero;
     private int capacidad;
