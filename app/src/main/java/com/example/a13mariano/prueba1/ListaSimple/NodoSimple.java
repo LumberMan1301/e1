@@ -1,19 +1,19 @@
 package com.example.a13mariano.prueba1.ListaSimple;
 
-public class NodoSimple <T>{
-    private T data;
+public class NodoSimple{
+    private int data;
     private NodoSimple siguiente;
 
-    public NodoSimple(T data) {
+    public NodoSimple(int data) {
         this.data = data;
         this.siguiente=null;
     }
 
-    public T getData() {
+    public int getData() {
         return data;
     }
 
-    public void setData(T data) {
+    public void setData(int data) {
         this.data = data;
     }
 
